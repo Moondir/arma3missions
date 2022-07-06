@@ -1,0 +1,258 @@
+<Project name="NetworkCentricWarfare">
+	<Container name="Description">
+		<Key ID="STR_Mission_Name">
+				<Original>Network Centric Warfare</Original>
+				<English>Network Centric Warfare</English>
+				<Russian>Сетецентрическая война</Russian>
+		</Key>
+		<Key ID="STR_Mission_Description">
+				<Original>Using the advantage of the modern "Armata" combat platform, the 29th BTG of the Russian Armed Forces is storming enemy's fortified positions in the village of Adamow. Take on the role of a rifleman on the modern network-centric battlefield of the Livonian frontier.</Original>
+				<English>Using the advantage of the modern "Armata" combat platform, the 29th BTG of the Russian Armed Forces is storming enemy's fortified positions in the village of Adamow. Take on the role of a rifleman on the modern network-centric battlefield of the Livonian frontier.</English>
+				<Russian>Используя преимущество современной боевой платформы "Армата", 29-ая БТГ ВС РФ штурмует укреплённые позиции противника в селе Адамов. Окажитесь в роли стрелка на современном сетецентрическом поле боя Ливонского театра военных действий.</Russian>
+		</Key>
+		<Key ID="STR_Mission_Ending">
+				<Original>You have successfully completed all tasks set by command and proved the effectiveness concept of network-centric warfare despite the numerical superiority of the enemy.</Original>
+				<English>You have successfully completed all tasks set by command and proved the effectiveness concept of network-centric warfare despite the numerical superiority of the enemy.</English>
+				<Russian>Вы успешно выполнили все поставленные командованием задачи и доказали эффективность концепции ведения сетецентрической войны несмотря на численный перевес противника.</Russian>
+		</Key>
+	</Container>
+	<Container name="Markers">
+		<Key ID="STR_Marker_RU_Platoon">
+				<Original>3rd Mechanized platoon</Original>
+				<English>3rd Mechanized platoon</English>
+				<Russian>3-й Мотострелковый взвод</Russian>
+		</Key>
+		<Key ID="STR_Description_RU_Platoon">
+				<Original>Two mechanized squads on T-15 AFV.&lt;br/&gt;Call sign: Baikal-1 and Baikal-2</Original>
+				<English>Two mechanized squads on T-15 AFV.&lt;br/&gt;Call sign: Baikal-1 and Baikal-2</English>
+				<Russian>Два мотострелковых отделения на ББМ Т-15.&lt;br/&gt;Позывной: Байкал-1 и Байкал-2</Russian>
+		</Key>
+		<Key ID="STR_Marker_RU_Tank_Platoon">
+				<Original>2nd Tank platoon</Original>
+				<English>2nd Tank platoon</English>
+				<Russian>2-ой Танковый взвод</Russian>
+		</Key>
+		<Key ID="STR_Marker_RU_Tank_Platoon_short">
+				<Original>2nd Tank platoon</Original>
+				<English>2nd Tank platoon</English>
+				<Russian>2-ой ТВ</Russian>
+		</Key>
+		<Key ID="STR_Description_RU_Tank_Platoon">
+				<Original>Two crews of the T-14 MBT.&lt;br/&gt;Call sign: Armavir-1 and Armavir-2</Original>
+				<English>Two crews of the T-14 MBT.&lt;br/&gt;Call sign: Armavir-1 and Armavir-2</English>
+				<Russian>Два экипажа ОБТ Т-14.&lt;br/&gt;Позывной: Армавир-1 и Армавир-2</Russian>
+		</Key>
+		<Key ID="STR_Description_RU_BTG">
+				<Original>The 29th Battalion tactical group participating in the battles for Topolin and the further offensive in this direction.&lt;br/&gt;Call sign: Shatun-1</Original>
+				<English>The 29th Battalion tactical group participating in the battles for Topolin and the further offensive in this direction.&lt;br/&gt;Call sign: Shatun-1</English>
+				<Russian>29-ая Батальонная тактическая группа участвующая в боях за Тополин и дальнейшему наступлению по данному направлению.&lt;br/&gt;Позывной: Шатун-1</Russian>
+		</Key>
+	</Container>
+	<Container name="Intro">
+		<Key ID="STR_Intro_Position">
+				<Original>North to Adamow</Original>
+				<English>North to Adamow</English>
+				<Russian>Севернее Адамова</Russian>
+		</Key>
+		<Key ID="STR_Intro_BTG">
+				<Original>29th BTG</Original>
+				<English>29th BTG</English>
+				<Russian>29-ая БТГ</Russian>
+		</Key>
+		<Key ID="STR_Intro_Platoon">
+				<Original>3rd Mech. Platoon</Original>
+				<English>3rd Mech. Platoon</English>
+				<Russian>3-й МСВ</Russian>
+		</Key>
+	</Container>
+	<Container name="Tasks">
+		<Key ID="STR_Task1">
+				<Original>Capture the farm</Original>
+				<English>Capture the farm</English>
+				<Russian>Захватить ферму</Russian>
+		</Key>
+		<Key ID="STR_Task1_Description">
+				<Original>Capture enemy's fortified positions on &lt;marker name='mark_task1'&gt;farm&lt;/marker&gt; and clear out the headquarter in the administrative building.</Original>
+				<English>Capture enemy's fortified positions on &lt;marker name='mark_task1'&gt;farm&lt;/marker&gt; and clear out the headquarter in the administrative building.</English>
+				<Russian>Захватите укреплённые позиции противника на &lt;marker name='mark_task1'&gt;ферме&lt;/marker&gt; и зачистите штаб в административном здании.</Russian>
+		</Key>
+		<Key ID="STR_Task2">
+				<Original>Sweep the village</Original>
+				<English>Sweep the village</English>
+				<Russian>Зачистить село</Russian>
+		</Key>
+		<Key ID="STR_Task2_Description">
+				<Original>Eliminate the guards of the MLRS battery in &lt;marker name='mark_task2'&gt;Adamow&lt;/marker&gt; and take the village.</Original>
+				<English>Eliminate the guards of the MLRS battery in &lt;marker name='mark_task2'&gt;Adamow&lt;/marker&gt; and take the village.</English>
+				<Russian>Уничтожьте охрану батареи РСЗО в &lt;marker name='mark_task2'&gt;Адамове&lt;/marker&gt; и займите село.</Russian>
+		</Key>
+		<Key ID="STR_Task3">
+				<Original>Destroy the mortar squad</Original>
+				<English>Destroy the mortar squad</English>
+				<Russian>Уничтожить минометный расчет</Russian>
+		</Key>
+		<Key ID="STR_Task3_Description">
+				<Original>The enemy is deploying mortars in the slums to the &lt;marker name='mark_task3'&gt;south-east&lt;/marker&gt; of us. We need to destroy them before they open fire on the village.</Original>
+				<English>The enemy is deploying mortars in the slums to the &lt;marker name='mark_task3'&gt;south-east&lt;/marker&gt; of us. We need to destroy them before they open fire on the village.</English>
+				<Russian>Враг разворачивает минометы в трущобах к &lt;marker name='mark_task3'&gt;юго-востоку&lt;/marker&gt; от нас. Необходимо их уничтожить до того как они откруют огонь по селу.</Russian>
+		</Key>
+	</Container>
+	<Container name="Diary">
+		<Key ID="STR_Situation">
+				<Original>Situation</Original>
+				<English>Situation</English>
+				<Russian>Ситуация</Russian>
+		</Key>
+		<Key ID="STR_Situation_Desc">
+				<Original>After taking the city &lt;marker name='marker_25'&gt;Topolin&lt;/marker&gt; the 29th Battalion Tactical Group of the AFRF can continue assault on positions of the Armed Forces of Livonia on the south side of the river, further into the country.&lt;br/&gt;&lt;br/&gt;Two mechanized squads of the &lt;marker name='marker_23'&gt;3rd Mechanized platoon&lt;/marker&gt; were ordered to storm fortified AFL positions in the village &lt;marker name='mark_task2'&gt;Adamow&lt;/marker&gt;.&lt;br/&gt;&lt;br/&gt;Enemy built fortifications and a field headquarter at the positions of &lt;marker name='mark_task1'&gt;farm&lt;/marker&gt; north of the village &lt;marker name='mark_task2'&gt;Adamow&lt;/marker&gt;. In &lt;marker name='mark_task2'&gt;village&lt;/marker&gt; there is a MLRS battery firing on the city &lt;marker name='marker_25'&gt;Topolin&lt;/marker&gt;. Counter-battery fighting will lead to large destruction of civilian infrastructure, so sweeping these positions is also one of the tasks for &lt;marker name='marker_23'&gt;3rd Mech. Platoon.&lt;/marker&gt;&lt;br/&gt;&lt;br/&gt;The platoon is not advancing in full strength, so it will be reinforce with 2 tanks from &lt;marker name='marker_24'&gt;2nd Tank platoon&lt;/marker&gt;. We are in the minority, but we have modern combat platforms and equipment of network-centric warfare on our side, while the enemy uses military doctrine and weapons of the Soviet Union era.</Original>
+				<English>After taking the city &lt;marker name='marker_25'&gt;Topolin&lt;/marker&gt; the 29th Battalion Tactical Group of the AFRF can continue assault on positions of the Armed Forces of Livonia on the south side of the river, further into the country.&lt;br/&gt;&lt;br/&gt;Two mechanized squads of the &lt;marker name='marker_23'&gt;3rd Mechanized platoon&lt;/marker&gt; were ordered to storm fortified AFL positions in the village &lt;marker name='mark_task2'&gt;Adamow&lt;/marker&gt;.&lt;br/&gt;&lt;br/&gt;Enemy built fortifications and a field headquarter at the positions of &lt;marker name='mark_task1'&gt;farm&lt;/marker&gt; north of the village &lt;marker name='mark_task2'&gt;Adamow&lt;/marker&gt;. In &lt;marker name='mark_task2'&gt;village&lt;/marker&gt; there is a MLRS battery firing on the city &lt;marker name='marker_25'&gt;Topolin&lt;/marker&gt;. Counter-battery fighting will lead to large destruction of civilian infrastructure, so sweeping these positions is also one of the tasks for &lt;marker name='marker_23'&gt;3rd Mech. Platoon.&lt;/marker&gt;&lt;br/&gt;&lt;br/&gt;The platoon is not advancing in full strength, so it will be reinforce with 2 tanks from &lt;marker name='marker_24'&gt;2nd Tank platoon&lt;/marker&gt;. We are in the minority, but we have modern combat platforms and equipment of network-centric warfare on our side, while the enemy uses military doctrine and weapons of the Soviet Union era.</English>
+				<Russian>После взятия города &lt;marker name='marker_25'&gt;Тополин&lt;/marker&gt; 29-ая Батальонная тактическая группа ВС РФ может продолжать наступление на позиции Вооруженных Сил Ливонии на южной стороне реки, далее в глубь страны.&lt;br/&gt;&lt;br/&gt;Двум мотострелковым отделениям &lt;marker name='marker_23'&gt;3-его мотострелкового взвода&lt;/marker&gt; приказано штурмовать укреплённые позиции ВСЛ в селе &lt;marker name='mark_task2'&gt;Адамов&lt;/marker&gt;.&lt;br/&gt;&lt;br/&gt;Противник оборудовал фортификационные сооружения и полевой штаб на позициях &lt;marker name='mark_task1'&gt;фермы&lt;/marker&gt; севернее села &lt;marker name='mark_task2'&gt;Адамов&lt;/marker&gt;. В самом &lt;marker name='mark_task2'&gt;селе&lt;/marker&gt; находятся установки РСЗО и ведут огонь по городу &lt;marker name='marker_25'&gt;Тополин&lt;/marker&gt;. Контрбатарейная борьба приведёт к большим разрушениям гражданской инфраструктуры, поэтому зачистка этих позиции так же одна из задач для &lt;marker name='marker_23'&gt;3-его МСВ.&lt;/marker&gt;&lt;br/&gt;&lt;br/&gt;Взвод наступает не в полном составе, поэтому в усиление ему будет придано 2 танка из &lt;marker name='marker_24'&gt;2-ого Танкового взвода&lt;/marker&gt;. Мы в меньшинстве, но на нашей стороне современные боевые платформы и снаряжение сетецентрической войны, в то время как противник использует военную доктрину и вооружение времён Советского Союза.</Russian>
+		</Key>
+		<Key ID="STR_Notes_Task">
+				<Original>Mission</Original>
+				<English>Mission</English>
+				<Russian>Задание</Russian>
+		</Key>
+		<Key ID="STR_Notes_Task_Desc">
+				<Original>&lt;marker name='marker_23'&gt;3rd Mechanized platoon&lt;/marker&gt; consisting of two mechanized squads on T-15 AFV with the support of two T-14 MBT from &lt;marker name='marker_24'&gt;2nd Tank platoon&lt;/marker&gt; is storming &lt;marker name='marker_16'&gt;positions&lt;/marker&gt; of the Armed Forces of Livonia from &lt;marker name='marker_14'&gt;north&lt;/marker&gt;.</Original>
+				<English>&lt;marker name='marker_23'&gt;3rd Mechanized platoon&lt;/marker&gt; consisting of two mechanized squads on T-15 AFV with the support of two T-14 MBT from &lt;marker name='marker_24'&gt;2nd Tank platoon&lt;/marker&gt; is storming &lt;marker name='marker_16'&gt;positions&lt;/marker&gt; of the Armed Forces of Livonia from &lt;marker name='marker_14'&gt;north&lt;/marker&gt;.</English>
+				<Russian>&lt;marker name='marker_23'&gt;3-й Мотострелковый взвод&lt;/marker&gt; в составе 2-х мотострелковых отделений на ББМ Т-15 при поддержке 2-х танков Т-14 из &lt;marker name='marker_24'&gt;2-ого Танкового взвода&lt;/marker&gt; штурмует &lt;marker name='marker_16'&gt;позиции&lt;/marker&gt; Вооруженных Сил Ливонии с &lt;marker name='marker_14'&gt;севера&lt;/marker&gt;.</Russian>
+		</Key>
+		<Key ID="STR_Notes_Execution">
+				<Original>Execution</Original>
+				<English>Execution</English>
+				<Russian>Выполнение</Russian>
+		</Key>
+		<Key ID="STR_Notes_Execution_Desc">
+			<Original>1. Capture enemy fortified positions on &lt;marker name='mark_task1'&gt;farm&lt;/marker&gt;.&lt;br/&gt;2. Destroy the guards of the MLRS battery in the village &lt;marker name='mark_task2'&gt;Adamow&lt;/marker&gt; and take it.</Original>
+			<English>1. Capture enemy fortified positions on &lt;marker name='mark_task1'&gt;farm&lt;/marker&gt;.&lt;br/&gt;2. Destroy the guards of the MLRS battery in the village &lt;marker name='mark_task2'&gt;Adamow&lt;/marker&gt; and take it.</English>
+			<Russian>1. Захватить укреплённые позиции противника на &lt;marker name='mark_task1'&gt;ферме&lt;/marker&gt;.&lt;br/&gt;2. Уничтожить охрану батареи РСЗО в селе &lt;marker name='mark_task2'&gt;Адамов&lt;/marker&gt; и занять его.</Russian>
+		</Key>
+		<Key ID="STR_Notes_Signal">
+				<Original>Signal</Original>
+				<English>Signal</English>
+				<Russian>Позывные</Russian>
+		</Key>
+		<Key ID="STR_Notes_Signal_Desc">
+				<Original>&lt;execute expression='systemChat str [0,0,0];'&gt;Shatun-1&lt;/execute&gt; - 29th BTG HQ&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Baikal-1&lt;/execute&gt; - 1th Mech. squad&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Baikal-2&lt;/execute&gt; - 2nd Mechanized squad&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Adler-1&lt;/execute&gt; - Т-15 AFV Crew - 1th Mech. squad&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Adler-2&lt;/execute&gt; - Т-15 AFV Crew - 2nd Mech. squad&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Armavir-1&lt;/execute&gt; - Т-14 MBT Crew - 2nd Tank Platoon&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Armavir-2&lt;/execute&gt; - Т-14 MBT Crew - 2nd Tank Platoon</Original>
+				<English>&lt;execute expression='systemChat str [0,0,0];'&gt;Shatun-1&lt;/execute&gt; - 29th BTG HQ&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Baikal-1&lt;/execute&gt; - 1th Mech. squad&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Baikal-2&lt;/execute&gt; - 2nd Mechanized squad&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Adler-1&lt;/execute&gt; - Т-15 AFV Crew - 1th Mech. squad&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Adler-2&lt;/execute&gt; - Т-15 AFV Crew - 2nd Mech. squad&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Armavir-1&lt;/execute&gt; - Т-14 MBT Crew - 2nd Tank Platoon&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Armavir-2&lt;/execute&gt; - Т-14 MBT Crew - 2nd Tank Platoon</English>
+				<Russian>&lt;execute expression='systemChat str [0,0,0];'&gt;Шатун-1&lt;/execute&gt; - Штаб 29-ой БТГ&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Байкал-1&lt;/execute&gt; - 1-ое Мотострелковое отделение&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Байкал-2&lt;/execute&gt; - 2-ое Мотострелковое отделение&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Адлер-1&lt;/execute&gt; - Экипаж ББМ Т-15 - 1-ого МСО&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Адлер-2&lt;/execute&gt; - Экипаж ББМ Т-15 - 2-ого МСО&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Армавир-1&lt;/execute&gt; - Экипаж ОБТ Т-14 - 2-ой ТВ&lt;br/&gt;&lt;execute expression='systemChat str [0,0,0];'&gt;Армавир-2&lt;/execute&gt; - Экипаж ОБТ Т-14 - 2-ой ТВ</Russian>
+		</Key>
+	</Container>
+	<Container name="Callsign">
+		<Key ID="STR_Callsign_HQ">
+				<Original>Shatun-1</Original>
+				<English>Shatun-1</English>
+				<Russian>Шатун-1</Russian>
+		</Key>
+		<Key ID="STR_Callsign_TankSquad1">
+				<Original>Armavir-1</Original>
+				<English>Armavir-1</English>
+				<Russian>Армавир-1</Russian>
+		</Key>
+		<Key ID="STR_Callsign_TankSquad2">
+				<Original>Armavir-2</Original>
+				<English>Armavir-2</English>
+				<Russian>Армавир-2</Russian>
+		</Key>
+		<Key ID="STR_Callsign_BMPSquad1">
+				<Original>Adler-1</Original>
+				<English>Adler-1</English>
+				<Russian>Адлер-1</Russian>
+		</Key>
+		<Key ID="STR_Callsign_BMPSquad2">
+				<Original>Adler-2</Original>
+				<English>Adler-2</English>
+				<Russian>Адлер-2</Russian>
+		</Key>
+		<Key ID="STR_Callsign_PlayerSL">
+				<Original>Baikal-1</Original>
+				<English>Baikal-1</English>
+				<Russian>Байкал-1</Russian>
+		</Key>
+		<Key ID="STR_Callsign_BotSL">
+				<Original>Baikal-2</Original>
+				<English>Baikal-2</English>
+				<Russian>Байкал-2</Russian>
+		</Key>
+		<Key ID="STR_Callsign_PlayerSL_Sub">
+				<Original>Squad Leader (Baikal-1-1)</Original>
+				<English>Squad Leader (Baikal-1-1)</English>
+				<Russian>Командир отделения (Байкал-1-1)</Russian>
+		</Key>
+	</Container>
+	<Container name="RadioConversations">
+		<Key ID="STR_Radio_Conv1">
+				<Original>Armavir-1 to Shatun-1. Lined up in battle order, proceed to the assault.</Original>
+				<English>Armavir-1 to Shatun-1. Lined up in battle order, proceed to the assault.</English>
+				<Russian>Армавир главный - Шатуну. Выстроились в боевой порядок, приступаем к штурму.</Russian>
+		</Key>
+		<Key ID="STR_Radio_Conv2">
+				<Original>Shatun-1 to Armavir-1. Acknowledge, good luck gentlemen's!</Original>
+				<English>Shatun-1 to Armavir-1. Acknowledge, good luck gentlemen's!</English>
+				<Russian>Шатун - Армавиру главному. Принял, удачи господа!</Russian>
+		</Key>
+		<Key ID="STR_Radio_Conv3">
+				<Original>Infantry, contact in 1 minute!</Original>
+				<English>Infantry, contact in 1 minute!</English>
+				<Russian>Пехота, контакт через 1 минуту!</Russian>
+		</Key>
+		<Key ID="STR_Radio_Conv4">
+				<Original>Shatun - this is Baikal-1. The farm has been seized. Proceed to the next objective.</Original>
+				<English>Shatun - this is Baikal-1. The farm has been seized. Proceed to the next objective.</English>
+				<Russian>Шатун - это Байкал-1. Ферма захвачена. Приступаем к следующей цели.</Russian>
+		</Key>
+		<Key ID="STR_Radio_Conv5">
+				<Original>Acknowledge Baikal-1. Great job. The vehicles remains in positions, you and Baikal-2 go into the village. Out.</Original>
+				<English>Acknowledge Baikal-1. Great job. The vehicles remains in positions, you and Baikal-2 go into the village. Out.</English>
+				<Russian>Принято Байкал-1. Отличная работа. Техника остается на позициях, вы и Байкал-2 заходите в село. Конец связи.</Russian>
+		</Key>
+		<Key ID="STR_Radio_Conv6">
+				<Original>Baikal-1 to Shatun-1. The village is under our control, the enemy has been destroyed, the MLRS is no longer a threat.</Original>
+				<English>Baikal-1 to Shatun-1. The village is under our control, the enemy has been destroyed, the MLRS is no longer a threat.</English>
+				<Russian>Шатун - это Байкал-1. Село под нашим контролем, враг уничтожен, РСЗО больше не угроза.</Russian>
+		</Key>
+		<Key ID="STR_Radio_Conv7">
+				<Original>Excellent Baikal-1. A new task for you. UAV spotted two vehicles and troops on the slums in the south-east of Adamow, looks like they are deploying mortars to strike at your positions. Go there and eliminate enemies before they has time to do that.</Original>
+				<English>Excellent Baikal-1. A new task for you. UAV spotted two vehicles and troops in the slums to the south-east of Adamow, looks like they are deploying mortars to strike at your positions. Go there and eliminate enemies before they has time to do that.</English>
+				<Russian>Прекрасно Байкал-1. Для вас новая задача. БПЛА засёк два транспортных средства и пехоту в трущобах на юго-востоке от Адамова, похоже они разворачивают минометы для удара по вашим позициям. Направляйтесь туда и уничтожьте врага до того как он успеет это сделать.</Russian>
+		</Key>
+		<Key ID="STR_Radio_Conv8">
+				<Original>Copy that Shatun-1. We are beginning to accomplish the task.</Original>
+				<English>Copy that Shatun-1. We are beginning to accomplish the task.</English>
+				<Russian>Принял Шатун. Приступаем к выполнению задачи.</Russian>
+		</Key>
+		<Key ID="STR_Radio_Conv9">
+				<Original>Shatun-1. The mortars were destroyed. Further directions?</Original>
+				<English>Shatun-1. The mortars were destroyed. Further directions?</English>
+				<Russian>Шатун. Минометчики уничтожены. Дальнейшие указания?</Russian>
+		</Key>
+		<Key ID="STR_Radio_Conv10">
+				<Original>Baikal-1. Return back to Adamow and take a hold there. Congratulations to all units! Dissmiss.</Original>
+				<English>Baikal-1. Return back to Adamow and take a hold there. Congratulations to all units! Dissmiss.</English>
+				<Russian>Байкал-1. Возвращайтесь обратно в Адамов и закрепитесь там. Всем подразделениям, мои поздравления! Отбой.</Russian>
+		</Key>
+	</Container>
+	<Container name="DirectConversations">
+		<Key ID="STR_DirConv_PlayerSL">
+				<Original>Less than a minute to contact, get ready, check your gear!</Original>
+				<English>Less than a minute to contact, get ready, check your gear!</English>
+				<Russian>До высадки меньше минуты, приготовились, проверить снаряжение!</Russian>
+		</Key>
+		<Key ID="STR_DirConv_PlayerSL1">
+				<Original>Disembark! Spread the firing sectors, move forward, take cover behind the wrecks, provide suppressive fire!</Original>
+				<English>Disembark! Spread the firing sectors, move forward, take cover behind the wrecks, provide suppressive fire!</English>
+				<Russian>Высаживаемся! Распределить огневые сектора, продвигаемся вперёд, занимаем укрытие за техникой, обеспечить подавляющий огонь!</Russian>
+		</Key>
+		<Key ID="STR_DirConv_PlayerSL2">
+				<Original>Proceed to the farm, check every buildings!</Original>
+				<English>Proceed to the farm, check every buildings!</English>
+				<Russian>Заходим на ферму, проверяем каждое здание!</Russian>
+		</Key>
+		<Key ID="STR_DirConv_PlayerSL3">
+				<Original>Clear!</Original>
+				<English>Clear!</English>
+				<Russian>Чисто!</Russian>
+		</Key>
+	</Container>
+</Project>
